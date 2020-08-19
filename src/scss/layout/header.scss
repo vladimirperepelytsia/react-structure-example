@@ -1,0 +1,17 @@
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  .header-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .toggle-language {
+    text-transform: uppercase;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}

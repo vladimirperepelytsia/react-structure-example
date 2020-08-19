@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-loader {
+  animation: App-loader-spin infinite 20s linear;
+  height: 30px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+// test
+.App-intro {
+  font-size: large;
+}
+
+.App-banner {
+  width: 150px;
+}
+
+.memo {
+  display: flex;
+  justify-content: center;
+  .info {
+    margin-right: 20px;
+  }
+  .update {
+    align-self: center;
+    &-btn {
+      display: block;
+      margin: 0 auto 16px auto;
+      width: 100%;
+      padding: 7px 0px;
+    }
+  }
+  .events {
+    flex-direction: column;
+  }
+}
+
+@keyframes App-loader-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@import './layout/header.scss'
